@@ -1,0 +1,9 @@
+.matchItem__grid-container {
+    display: grid;
+    grid-template-columns: 100px 1fr 1fr 70px 80px;
+    grid-gap: 30px;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 5px;
+    font-weight: bold;
+}

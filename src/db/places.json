@@ -1,0 +1,464 @@
+[
+    {
+        "ID": "1",
+        "nombre": "Enesport",
+        "TELÉFONO": "(56) 9 5021 1658",
+        "calle": "Av J Manuel Guzmán R ",
+        "numero": "1302",
+        "comuna": "Pudahuel",
+        "LATITUD, LONGITUD": "-33.4312804,-70.7755772"
+    },
+    {
+        "ID": "2",
+        "nombre": "Mas Soccer",
+        "TELÉFONO": "(56-2) 22397609",
+        "TELÉFONO 2": "(56-2) 22397394",
+        "calle": "Castillo Urízar",
+        "numero": "2463",
+        "comuna": "Macul",
+        "LATITUD, LONGITUD": "-33.4775271,-70.6124869"
+    },
+    {
+        "ID": "3",
+        "nombre": "Cancha de Futbolito Don Manuel",
+        "TELÉFONO": "(56) 9 9542 2622",
+        "calle": "Av Senador J Guzmán",
+        "numero": "144",
+        "comuna": "Isla de Maipo",
+        "LATITUD, LONGITUD": "-33.7505065,-70.9080593"
+    },
+    {
+        "ID": "4",
+        "nombre": "Espacio Futbolito LTDA.",
+        "TELÉFONO": "(56-2) 22397394",
+        "calle": "Av Los Toros",
+        "numero": "5321",
+        "comuna": "Puente Alto",
+        "LATITUD, LONGITUD": "-33.567247,-70.561764",
+        "horarios": "Lunes a Sábado de 9:00 a 00:00hrs y Domingo de 9:00 a 23:00hrs.",
+        "pagina web": "http://WWW.ESPACIOFUTBOLITO.CL",
+        "correo": "contacto@espaciofutbolito.cl"
+    },
+    {
+        "ID": "5",
+        "nombre": "Deportes Alfe Limitada",
+        "TELÉFONO": "(56) 9 9051 3234",
+        "calle": "Av José Manuel Infante",
+        "numero": "2013",
+        "comuna": "ÑUÑOA",
+        "LATITUD, LONGITUD": "-33.4494336,-70.6206432"
+    },
+    {
+        "ID": "6",
+        "nombre": "Marbe S a",
+        "TELÉFONO": " ",
+        "calle": "Mons.Escrivá de B.",
+        "numero": "12352",
+        "comuna": "Lo Barnechea",
+        "LATITUD, LONGITUD": "no corresponde"
+    },
+    {
+        "ID": "7",
+        "nombre": "Club el Rancho Melipilla",
+        "TELÉFONO": "(56) 9 9656 3895",
+        "TELÉFONO 2": "8324989",
+        "calle": "Av Padre Demetrio Bravo ",
+        "numero": " ",
+        "comuna": "Melipilla",
+        "LATITUD, LONGITUD": "no corresponde"
+    },
+    {
+        "ID": "8",
+        "nombre": "Terrasoccer",
+        "TELÉFONO": "56 2 2237 0967",
+        "TELÉFONO 2": "56 9 82683354",
+        "calle": "Williams Rebolledo ",
+        "numero": "1800",
+        "comuna": "ÑUÑOA",
+        "LATITUD, LONGITUD": "-33.4718222,-70.6215581",
+        "horarios": "Lunes a Domingo de 9.00 a 23.00",
+        "pagina web": "http://www.terrasoccer.cl/",
+        "correo": "terra.soccer.nunoa@gmail.com"
+    },
+    {
+        "ID": "9",
+        "nombre": "Carlos encina",
+        "TELÉFONO": " ",
+        "calle": " ",
+        "numero": " ",
+        "comuna": " ",
+        "LATITUD, LONGITUD": " ",
+        "horarios": " ",
+        "pagina web": "http://www.carlosencinas.cl/"
+    },
+    {
+        "ID": "10",
+        "nombre": "Club Futbol 7",
+        "TELÉFONO": "02 8578251 (Mall Pza Sur)",
+        "calle": "Serafín Zamora ",
+        "numero": "127",
+        "comuna": "Santiago",
+        "LATITUD, LONGITUD": "-33.5203164,-70.6011829",
+        "correo": "mps@elclubfutbol7.cl"
+    },
+    {
+        "ID": "11",
+        "nombre": "Club Soccer",
+        "TELÉFONO": "(56) 2 2237 9026",
+        "calle": "Williams Rebolledo ",
+        "numero": "1788",
+        "comuna": "Ñuñoa",
+        "LATITUD, LONGITUD": "-33.4718421,-70.6222044",
+        "pagina web": " "
+    },
+    {
+        "ID": "12",
+        "nombre": "Futbolito Maipu",
+        "TELÉFONO": "(2) 2301 2491",
+        "calle": "avenida tres poniente",
+        "numero": "2600",
+        "comuna": "Maipu",
+        "LATITUD, LONGITUD": "-33.5043206,-70.7824134",
+        "horarios": "Lunes a Domingo de 9.00 a 01.00",
+        "pagina web": "https://bit.ly/2BMeEVT",
+        "correo": "contacto@futbolitomaipu.cl"
+    },
+    {
+        "ID": "13",
+        "nombre": "Soccer Pro",
+        "TELÉFONO": "(56) 2 2237 9026",
+        "calle": "Francisco Meneses",
+        "numero": "1580",
+        "comuna": "Ñuñoa",
+        "LATITUD, LONGITUD": "-33.4715762,-70.6196143",
+        "horarios": " ",
+        "pagina web": "http://www.soccerpro.cl"
+    },
+    {
+        "ID": "14",
+        "nombre": "Club Pato Cornejo",
+        "TELÉFONO": "988087925",
+        "TELÉFONO 2": "2217-2031 / 2217-3071",
+        "calle": " ",
+        "numero": " ",
+        "comuna": " ",
+        "LATITUD, LONGITUD": " ",
+        "horarios": "Lunes a Viernes 10:00 a 23:00hrs Sábado 10:00 a 20:00hrs Domingo 9:00 a 14:00hrs",
+        "pagina web": "http://www.clubpatocornejo.cl",
+        "correo": "info@clubpatocornejo.cl"
+    },
+    {
+        "ID": "15",
+        "nombre": "Centro Deportivo Bollenar",
+        "TELÉFONO": "(56) 9 7369 8931",
+        "calle": "Las Culebras Verdes",
+        "numero": "1",
+        "comuna": "MELIPILLA",
+        "LATITUD, LONGITUD": "-33.5671828,-71.2141779"
+    },
+    {
+        "ID": "16",
+        "nombre": "Pro Club",
+        "TELÉFONO": "232167826",
+        "calle": "Av La Montaña ",
+        "numero": "11",
+        "comuna": "Lampa",
+        "LATITUD, LONGITUD": "-33.3266442,-70.7559236",
+        "pagina web": "http://www.proclub.cl"
+    },
+    {
+        "ID": "17",
+        "nombre": "Complejo Deportivo Don Oscar",
+        "TELÉFONO": "979288480",
+        "calle": "Av Los Pajaritos ",
+        "numero": "4155",
+        "comuna": "Maipu",
+        "LATITUD, LONGITUD": "-33.4861848,-70.7493336",
+        "pagina web": "http://www.donoscar.cl"
+    },
+    {
+        "ID": "18",
+        "nombre": "Canchas Futbolito las Palmeras de Albano",
+        "TELÉFONO": "23129530",
+        "calle": "AV. fernandez albano ",
+        "numero": "200",
+        "comuna": "La cisterna",
+        "LATITUD, LONGITUD": "-33.5238911,-70.6595479"
+    },
+    {
+        "ID": "19",
+        "nombre": "Jardin Vivero Bora Bora",
+        "TELÉFONO": "24191686",
+        "calle": "Av Camilo Henríquez ",
+        "numero": "3527",
+        "comuna": "Puente alto",
+        "LATITUD, LONGITUD": "-33.567983,-70.5556128",
+        "pagina web": "http://www.borafutbol.cl"
+    },
+    {
+        "ID": "20",
+        "nombre": "Soccer Arena S.A.",
+        "TELÉFONO": "56974974295",
+        "TELÉFONO 2": "2 2267 8810",
+        "calle": "Av José Joaquín Prieto Vial ",
+        "numero": "7600",
+        "comuna": "La Cisterna",
+        "LATITUD, LONGITUD": "-33.5222891,-70.6784592",
+        "horarios": "Lunes a Domingo de 9.00 a 00.00",
+        "pagina web": "http://www.soccerarena.cl",
+        "correo": "reservas@soccerarena.cl"
+    },
+    {
+        "ID": "21",
+        "nombre": "Sierra 10",
+        "TELÉFONO": "9 8846 4828",
+        "calle": "Lo Blanco",
+        "numero": "2795",
+        "comuna": "La pintana",
+        "LATITUD, LONGITUD": "-33.5733763,-70.7122723",
+        "pagina web": " "
+    },
+    {
+        "ID": "22",
+        "nombre": "Cristo Salva Arriendo de Canchas",
+        "TELÉFONO": "222389813",
+        "calle": "av. Macul",
+        "numero": "2645",
+        "comuna": "Macul",
+        "LATITUD, LONGITUD": "-33.4789017,-70.6013945"
+    },
+    {
+        "ID": "23",
+        "nombre": "Cancha Futbolito Diagonal Oriente",
+        "TELÉFONO": "224469222",
+        "calle": "Diagonal Oriente",
+        "numero": "1696",
+        "comuna": "Providencia",
+        "LATITUD, LONGITUD": "-33.4457918,-70.6117942",
+        "horarios": "Lunes a Domingo de 8.00 a 22.00",
+        "pagina web": "http://www.providencia.cl/centro-deportivo-diagonal-oriente"
+    },
+    {
+        "ID": "24",
+        "nombre": "Canchas Futbolito, PUC San Joaquín",
+        "TELÉFONO": "223544738",
+        "calle": " ",
+        "numero": " ",
+        "comuna": "Macul",
+        "LATITUD, LONGITUD": " "
+    },
+    {
+        "ID": "25",
+        "nombre": "Campo Deportivo Quilin Limitada",
+        "TELÉFONO": "224808351",
+        "calle": "av. Quilin",
+        "numero": "2501",
+        "comuna": "macul",
+        "LATITUD, LONGITUD": "-33.485392,-70.6102171",
+        "horarios": "Lunes a Viernes 09:00 a 22:00hrs Sábado, Domingo y Festivo 09:00 a 23:00hrs",
+        "pagina web": "https://www.recrear.cl/web/campo-deportivo/"
+    },
+    {
+        "ID": "26",
+        "nombre": "Corporacion club de tenis estadio nacional",
+        "TELÉFONO": "222370897",
+        "calle": "Av. Grecia",
+        "numero": "2001",
+        "comuna": "nuñoa",
+        "LATITUD, LONGITUD": "-33.4625264,-70.6135749",
+        "horarios": "Martes a Viernes 08:00 a 21:30hrs Sábado 08:00 a 18:00hrs, Domingo 08:00 a 17:00hrs",
+        "pagina web": "http://www.tenisnacional.cl/"
+    },
+    {
+        "ID": "27",
+        "nombre": "Complejo deportivo mundo Sport",
+        "TELÉFONO": "227526650",
+        "calle": "El libano",
+        "numero": "5001",
+        "comuna": "macul",
+        "LATITUD, LONGITUD": "-33.4967783,-70.5949198",
+        "pagina web": "http://www.mundosport.cl/"
+    },
+    {
+        "ID": "28",
+        "nombre": "Canchas de Futbolito",
+        "TELÉFONO": "950056406",
+        "calle": "San Jose de la estrella",
+        "numero": "777",
+        "comuna": "la florida",
+        "LATITUD, LONGITUD": "-33.5531922,-70.5800035"
+    },
+    {
+        "ID": "29",
+        "nombre": "Los Cancheros",
+        "TELÉFONO": "995418771",
+        "calle": "Carlos Ossandon ",
+        "numero": "40",
+        "comuna": "La reina",
+        "LATITUD, LONGITUD": "-33.4498273,-70.5462111",
+        "pagina web": "http://www.loscancheros.cl/"
+    },
+    {
+        "ID": "30",
+        "nombre": "Canchas Soto Aguilar",
+        "TELÉFONO": "22543166",
+        "calle": "Soto aguilar",
+        "numero": "1509",
+        "comuna": "San Miguel",
+        "LATITUD, LONGITUD": "-33.4858361,-70.6584653"
+    },
+    {
+        "ID": "31",
+        "nombre": "Club Palestino",
+        "TELÉFONO": "222129451",
+        "calle": "Kennedy",
+        "numero": "9351",
+        "comuna": "Las Condes",
+        "LATITUD, LONGITUD": "-33.3881484,-70.5454845",
+        "pagina web": "http://clubpalestino.cl/",
+        "correo": "info@clubpalestino.cl"
+    },
+    {
+        "ID": "32",
+        "nombre": "Canchas Soocer Pro Ñuñoa",
+        "TELÉFONO": "973885078",
+        "calle": "Francisco Meneses ",
+        "numero": "1580",
+        "comuna": "Ñuñoa",
+        "LATITUD, LONGITUD": "-33.4715807,-70.6196143",
+        "pagina web": "http://soccerpro.cl/"
+    },
+    {
+        "ID": "33",
+        "nombre": "Canchas Parque Centenario",
+        "TELÉFONO": " ",
+        "calle": "Centenario",
+        "numero": "2221",
+        "comuna": "Pedro Aguirre Cerda",
+        "LATITUD, LONGITUD": "-33.4760409,-70.6718241",
+        "pagina web": "http://www.cordesansantiago.cl/"
+    },
+    {
+        "ID": "34",
+        "nombre": "Terra soccer",
+        "TELÉFONO": "222370967",
+        "TELÉFONO 2": "56982683354",
+        "calle": "Williams Rebolledo ",
+        "numero": "1800",
+        "comuna": "Ñuñoa",
+        "LATITUD, LONGITUD": "-33.4718222,-70.6215581",
+        "pagina web": "http://www.terrasoccer.cl/",
+        "correo": "terra.soccer.nunoa@gmail.com"
+    },
+    {
+        "ID": "35",
+        "nombre": "Cancha de Futbolito",
+        "TELÉFONO": "997904079",
+        "calle": "Palena",
+        "numero": "743",
+        "comuna": "Estacion central",
+        "LATITUD, LONGITUD": "-33.4718754,-70.7092674"
+    },
+    {
+        "ID": "36",
+        "nombre": "Club Oriente",
+        "TELÉFONO": "56223031232",
+        "TELÉFONO 2": "56223031216",
+        "calle": "Nueva Bilbao",
+        "numero": "9495",
+        "comuna": "Las condes",
+        "LATITUD, LONGITUD": "-33.4292111,-70.5336402",
+        "pagina web": "http://www.cluboriente.cl/",
+        "correo": "contacto@canchasoriente.cl"
+    },
+    {
+        "ID": "37",
+        "nombre": "Massu Tenis",
+        "TELÉFONO": "223406342",
+        "calle": "Padre Hurtado sur",
+        "numero": "2650",
+        "comuna": "Las condes",
+        "LATITUD, LONGITUD": "-33.4299877,-70.5420937",
+        "pagina web": "http://www.massutenis.com/"
+    },
+    {
+        "ID": "38",
+        "nombre": "Liga Amigos del Futbol",
+        "TELÉFONO": "222988438",
+        "calle": "Quilin",
+        "numero": "8809",
+        "comuna": "peñalolen",
+        "LATITUD, LONGITUD": "-33.5013425,-70.5466761",
+        "pagina web": "http://www.laf.cl/"
+    },
+    {
+        "ID": "39",
+        "nombre": "Canchas Futbolito",
+        "TELÉFONO": "987654321",
+        "calle": "Covadonga ",
+        "numero": "399",
+        "comuna": "La cisterna",
+        "LATITUD, LONGITUD": "-33.5249657,-70.6562949"
+    },
+    {
+        "ID": "40",
+        "nombre": "Club de Tenis Tobalaba",
+        "TELÉFONO": "223266595",
+        "calle": " ",
+        "numero": " ",
+        "comuna": "La Reina",
+        "LATITUD, LONGITUD": " ",
+        "pagina web": "http://www.canchasdetenis.cl/club-de-tenis-tobalaba-biomachine/"
+    },
+    {
+        "ID": "41",
+        "nombre": "Futbolito Greenland",
+        "TELÉFONO": "56225955130",
+        "calle": "Laguna del Maule",
+        "numero": "392",
+        "comuna": "Estacion central",
+        "LATITUD, LONGITUD": "-33.457361,-70.7255178",
+        "pagina web": "http://futbolitogreenland.cl/",
+        "correo": "contacto@futbolitogreenland.cl"
+    },
+    {
+        "ID": "42",
+        "nombre": "Canchas de Tenis PArque Brasil",
+        "TELÉFONO": "222211238",
+        "calle": "Punta Arenas ",
+        "numero": "6711",
+        "comuna": "La Granja",
+        "LATITUD, LONGITUD": "-33.5187546,-70.6156403",
+        "pagina web": "https://www.municipalidadlagranja.cl/patrimonio/"
+    },
+    {
+        "ID": "43",
+        "nombre": "Soccer Pro Macul",
+        "TELÉFONO": "975854238",
+        "calle": "Castillo Urizar",
+        "numero": "2463",
+        "comuna": "Macul",
+        "LATITUD, LONGITUD": "-33.4775271,-70.6124923",
+        "pagina web": "https://www.facebook.com/soccerpro.cl/"
+    },
+    {
+        "ID": "44",
+        "nombre": "Canchas Quimey",
+        "TELÉFONO": "228416326",
+        "calle": "Portales",
+        "numero": "2744",
+        "comuna": "San Bernardo",
+        "LATITUD, LONGITUD": "-33.623308,-70.7033946",
+        "pagina web": "http://www.canchasquimey.cl/"
+    },
+    {
+        "ID": "45",
+        "nombre": "Pasco Club",
+        "TELÉFONO": "982129614",
+        "calle": "Cerro de Pasco",
+        "numero": "1372",
+        "comuna": "Providencia",
+        "LATITUD, LONGITUD": "-33.4420122,-70.5989744",
+        "pagina web": "http://www.pascoclub.cl/"
+    }
+]

@@ -1,0 +1,58 @@
+$background-color: #01161E;
+$color-title: #FAFAFA;
+
+.btn-custom1 {
+  text-align: center;
+  background: #29ACAD;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.viewContainer {
+  background: $background-color;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.matchesListContainer {
+  width: 70%;
+  background: #FAFAFA;
+  padding: 50px;
+  border-radius: 10px;
+}
+
+.matchesList__header {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.matchesList__listContainer {
+  width: 90%;
+  margin: auto;
+}
+
+.matchesList__ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.matchesList__ul li {
+  
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+
+/* Modal Create New Match */
+.createMatchModal {
+  display: flex;
+  flex-direction: column;
+}
