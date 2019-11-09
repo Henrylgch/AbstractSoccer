@@ -1,10 +1,11 @@
 import React, { Component } from 'react';
 import uuid from 'uuid'
 
+import places from '../db/places'
 
 class MatchForm extends Component {
     state = {
-        places: this.props.places,
+        places: places,
         match: {
             name: '',
             place: 'Enasport',
@@ -14,7 +15,6 @@ class MatchForm extends Component {
         },
         error: false
     }
-
 
     // Cuando el usuario rellena el formulario
     handleChange = e => {
@@ -32,10 +32,10 @@ class MatchForm extends Component {
         e.preventDefault();
 
         const stateDefault = {
-            places: this.props.places,
+            places: places,
             match: {
                 name: '',
-                place: 'Enasport',
+                place: '0',
                 type: 'Futbol',
                 date: '',
                 time: ''
@@ -47,7 +47,7 @@ class MatchForm extends Component {
         const { name, place, type, date, time } = this.state.match
 
         // Validar formulario
-        if (name === '' || place === '' || type === '' || date === '' || time === '') {
+        if (name === '' || place === '' || place == 0 || type === '' || date === '' || time === '') {
             this.setState ({error: true})
             console.log(this.state.error)
             // Detenemos el codigo
@@ -59,8 +59,14 @@ class MatchForm extends Component {
         newMatch.id = uuid()
 
         // Agregar
-        this.props.createMatch(newMatch)
+        var matchs = [];
 
+        if(localStorage.getItem("matchs"))
+            matchs = JSON.parse(localStorage.getItem("matchs"))
+            
+        matchs.push(newMatch);
+
+        localStorage.setItem("matchs",JSON.stringify(matchs))
         // Devolver state al inicial
         this.setState({
             ...stateDefault
@@ -92,9 +98,10 @@ class MatchForm extends Component {
                         onChange={this.handleChange}  
                         className="form-control"
                     >
-                        {this.props.places.map( field => {
+                        <option value="0">Seleccione cancha o estadio</option>
+                        {this.state.places.map( field => {
                             return (
-                                <option value={field.id} key={field.ID} >{field.nombre}</option>
+                                <option value={field.ID} key={field.ID} >{field.nombre}</option>
                             )
                         } )}
                     </select>
