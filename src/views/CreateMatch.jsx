@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 
-import Navbar from '../components/Navbar'
-
 /* Import CSS */
 import './../assets/css/CreateMatch.scss'
+
+/* Import Components */
 import MatchForm from '../components/MatchForm';
 
 class CreateMatch extends Component {
@@ -13,8 +13,6 @@ class CreateMatch extends Component {
     render() {
         return (
             <div className="container-fluid">
-                <Navbar />
-
                 <div className='row' >
                     <div className="col-md-8 col-lg-5 mx-auto">
                         <div className="container-fluid">

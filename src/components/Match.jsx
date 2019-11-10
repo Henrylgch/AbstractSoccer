@@ -1,11 +1,11 @@
-import React from 'react';
+import React, {Fragment} from 'react';
 import { Link } from 'react-router-dom'
 import '../assets/css/Match.scss'
 
 
 const Match = ({match, deleteMatch}) => {
         return (
-            <li className="list-group-item" key={match.id} >
+            <Fragment>
                 <div className="row container-fluid" >
                     <div className='col-md-2' >
                         <p>{match.date}</p>
@@ -28,8 +28,7 @@ const Match = ({match, deleteMatch}) => {
                         <button onClick={() => deleteMatch(match.id)} className=" btn btn-danger grid-item" >Eliminar</button>
                     </div>
                 </div >
-            </li>
-
+            </Fragment>
         );
 }
 

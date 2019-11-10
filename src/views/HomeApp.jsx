@@ -60,10 +60,13 @@ class HomeApp extends Component {
                         <ul className="list-group" >
                             {this.state.matchs.map( match => {
                                 return (
-                                    <Match 
+                                    <li className="list-group-item" key={match.id} >
+                                        <Match 
                                         match={match}
                                         deleteMatch={this.deleteMatch}
-                                />)
+                                         />
+                                    </li>
+                                )
                             } )}
                         </ul>
                     </div>

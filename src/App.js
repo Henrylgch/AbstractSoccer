@@ -9,17 +9,20 @@ import MatchDetails from './views/MatchDetails'
 
 /* Importando Bootstrap */
 import 'bootstrap/dist/css/bootstrap.min.css'
+import Layout from './components/layout/Layout';
 
 
 class App extends Component {
   render() {
     return (
       <BrowserRouter>
-        <Switch>
-          <Route exact path="/" component={HomeApp} />
-          <Route exact path='/create_match' component={CreateMatch} />
-          <Route exact path='/match/:matchId' component={MatchDetails} />
-        </Switch>
+        <Layout>
+          <Switch>
+            <Route exact path="/" component={HomeApp} />
+            <Route exact path='/create_match' component={CreateMatch} />
+            <Route exact path='/match/:matchId' component={MatchDetails} />
+          </Switch>
+        </Layout>
       </BrowserRouter>
     );
   }
