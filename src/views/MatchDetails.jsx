@@ -14,7 +14,7 @@ class MatchDetails extends Component {
         place: {},
         player: {
             email: '',
-            status: 0,
+            status: '',
         },
         error: false
     }
@@ -48,7 +48,7 @@ class MatchDetails extends Component {
         this.setState({
             player: {
                 [e.target.name]: e.target.value,
-                status: 0
+                status: 'Pendiente'
             }
         })
     }
@@ -119,7 +119,7 @@ class MatchDetails extends Component {
         return (
             <div className="container">
                 <div className="row mt-5">
-                    <h1>{name}</h1>
+                    <h1 className="col-12">{name}</h1>
                 </div>
 
                 <div className="row mt-4" >
