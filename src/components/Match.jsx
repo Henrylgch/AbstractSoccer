@@ -6,25 +6,25 @@ import '../assets/css/Match.scss'
 const Match = ({match, deleteMatch}) => {
         return (
             <Fragment>
-                <div className="row container-fluid" >
-                    <div className='col-md-2' >
-                        <p>{match.date}</p>
+                <div className="row " >
+                    <div className='col-md-12 col-lg-3 d-flex align-items-center' >
+                        {match.date}
                     </div>
 
-                    <div className='col-md-4'>
-                        <p>{match.name}</p>
+                    <div className='col-lg col-md-12 d-flex align-items-center'>
+                        {match.name}
                     </div>
 
-                    <div className='col'>
-                        <p>{match.type}</p>
+                    <div className='col-lg-2 d-flex align-items-center'>
+                        {match.type}
                     </div>
                     
-                    <div className="col-md-1">
+                    <div className="col-lg-1">
                         <Link to={`/match/${match.id}`} >
                             <button className="btn btn-primary grid-item" >Ver</button>
                         </Link>
                     </div>
-                    <div className="col-md-1">
+                    <div className="col-lg-2">
                         <button onClick={() => deleteMatch(match.id)} className=" btn btn-danger grid-item" >Eliminar</button>
                     </div>
                 </div >

@@ -52,12 +52,12 @@ class HomeApp extends Component {
                             <h2>{mensaje}</h2>
                         </div>
                         <div className="col-lg-3">
-                            <Link to='/create_match'><button className='btn btn-success'>Crear Partido</button></Link>
+                            <Link to='/create_match'><button className='btn btn-success w-100'>Crear Partido</button></Link>
                         </div>
                     </div>
 
                     <div className="row px-3">
-                        <ul className="list-group" >
+                        <ul className="list-group w-100 py-3" >
                             {this.state.matchs.map( match => {
                                 return (
                                     <li className="list-group-item" key={match.id} >
