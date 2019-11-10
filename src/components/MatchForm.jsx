@@ -11,7 +11,8 @@ class MatchForm extends Component {
             place: 'Enasport',
             type: 'Futbol',
             date: '',
-            time: ''
+            time: '',
+            players: []
         },
         error: false
     }
@@ -38,7 +39,8 @@ class MatchForm extends Component {
                 place: '0',
                 type: 'Futbol',
                 date: '',
-                time: ''
+                time: '',
+                players: []
             },
             error: false
         }
@@ -47,7 +49,7 @@ class MatchForm extends Component {
         const { name, place, type, date, time } = this.state.match
 
         // Validar formulario
-        if (name === '' || place === '' || place == 0 || type === '' || date === '' || time === '') {
+        if (name === '' || place === '' || place === 0 || type === '' || date === '' || time === '') {
             this.setState ({error: true})
             console.log(this.state.error)
             // Detenemos el codigo
