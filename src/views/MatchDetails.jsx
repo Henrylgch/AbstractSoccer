@@ -11,11 +11,13 @@ import Player from '../components/Player';
   
 class MatchDetails extends Component {
     state = {
-        match: {},
+        match: {
+            players: []
+        },
         place: {},
         player: {
             email: '',
-            status: '',
+            status: ''
         },
         error: false
     }
@@ -101,21 +103,26 @@ class MatchDetails extends Component {
             return match.id === this.props.match.params.matchId
         } )
 
+        //Extraemos los jugadores del partido
         const actuallyPlayers = matchById[0].players
         
+        //Filtramos y eliminamos el jugador de la lista
         const newPlayersList = actuallyPlayers.filter( player => player.id !== id )
 
+        //Se incorpora la lista filtrada sin el jugador eliminado
         matchById[0].players = newPlayersList
 
+        //Se envia a la base de datos
         localStorage.setItem("matchs", JSON.stringify(matchs))
 
+        //Aplicamos la nueva lista al state
         this.getMatchById()
-        /* const newPlayers = this.state.match.player.filter( player => player.id !== id)
-        this.setState({matchs: newMatchs}) */
     }
 
     render() {
         const {name, type, date, time} = this.state.match
+
+        const mensaje = Object.keys(this.state.match.players).length === 0 ? 'No hay jugadores invitados' : 'Lista de jugadores'
 
         return (
             <div className="container">
@@ -201,7 +208,7 @@ class MatchDetails extends Component {
                             </div>
 
                             <div>
-                                <h5>Lista de jugadores</h5>
+                                <h5>{mensaje}</h5>
 
                                 <div>
                                     <ul className="list-group">
@@ -210,9 +217,12 @@ class MatchDetails extends Component {
 
                                             this.state.match.players.map(player => {
                                             return (
-                                                <Player 
-                                                    player={player}
-                                                />
+                                                <li key={player.id} className="row mt-3">
+                                                    <Player 
+                                                        player={player}
+                                                        deletePlayer={this.deletePlayer}
+                                                    />
+                                                </li>
                                             )
                                         } ) }
                                     </ul>
