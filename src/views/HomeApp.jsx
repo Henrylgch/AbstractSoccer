@@ -45,28 +45,25 @@ class HomeApp extends Component {
         const mensaje = Object.keys(this.state.matchs).length === 0 ? 'No hay partidos programados' : 'Lista de partidos'
         
         return (
-            <div className="viewContainer">
-                <div className="matchesListContainer">
-                    <div className="matchesList__header">
-                        <h2>{mensaje}</h2>
-                        <Link to='/create_match'><button className='btn btn-success'>Crear Partido</button></Link>
+            <div className="container">
+                <div className="container border rounded w-75 p-3 mt-5">
+                    <div className="row px-3" >
+                        <div className="col">
+                            <h2>{mensaje}</h2>
+                        </div>
+                        <div className="col-lg-3">
+                            <Link to='/create_match'><button className='btn btn-success'>Crear Partido</button></Link>
+                        </div>
                     </div>
 
-                    <div className='matchesList__listContainer'>
-                        <ul className='matchesList__ul' >
-                            
+                    <div className="row px-3">
+                        <ul className="list-group" >
                             {this.state.matchs.map( match => {
                                 return (
-                                    <li key={match.id} >
-                                        <Match 
-                                            name={match.name}
-                                            date={match.date}
-                                            type={match.type}
-                                            id={match.id}
-                                            deleteMatch={this.deleteMatch}
-                                        />
-                                    </li>
-                                )
+                                    <Match 
+                                        match={match}
+                                        deleteMatch={this.deleteMatch}
+                                />)
                             } )}
                         </ul>
                     </div>
