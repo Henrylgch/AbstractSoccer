@@ -7,6 +7,7 @@ import Map from '../components/Map'
 import places from '../db/places.json'
 import credentials from '../credentials'
 import DetailSectionTitle from '../components/DetailSectionTitle';
+import Player from '../components/Player';
   
 class MatchDetails extends Component {
     state = {
@@ -209,13 +210,9 @@ class MatchDetails extends Component {
 
                                             this.state.match.players.map(player => {
                                             return (
-                                                <li key={player.id} className="row mt-3">
-                                                    <div className="col">
-                                                        {player.email}
-                                                    </div>
-                                                    <div className="col-lg-3">{player.status}</div>
-                                                    <div className="col-lg-3"> <button className="btn btn-danger" onClick={() => {this.deletePlayer(player.id)}} >Eliminar</button> </div>
-                                                </li>
+                                                <Player 
+                                                    player={player}
+                                                />
                                             )
                                         } ) }
                                     </ul>
