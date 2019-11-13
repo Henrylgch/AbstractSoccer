@@ -6,10 +6,10 @@ import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import HomeApp from './views/HomeApp'
 import CreateMatch from './views/CreateMatch'
 import MatchDetails from './views/MatchDetails'
+import Layout from './components/layout/Layout';
 
 /* Importando Bootstrap */
 import 'bootstrap/dist/css/bootstrap.min.css'
-import Layout from './components/layout/Layout';
 
 
 class App extends Component {

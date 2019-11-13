@@ -123,6 +123,8 @@ class MatchDetails extends Component {
         const {name, type, date, time} = this.state.match
 
         const mensaje = Object.keys(this.state.match.players).length === 0 ? 'No hay jugadores invitados' : 'Lista de jugadores'
+        const latLng = this.state.place
+        console.log(latLng)
 
         return (
             <div className="container">

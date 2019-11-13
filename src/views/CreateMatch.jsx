@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 
 /* Import CSS */
 import './../assets/css/CreateMatch.scss'
@@ -6,11 +6,7 @@ import './../assets/css/CreateMatch.scss'
 /* Import Components */
 import MatchForm from '../components/MatchForm';
 
-class CreateMatch extends Component {
-
-
-
-    render() {
+const CreateMatch = ({createMatch, places}) => {
         return (
             <div className="container-fluid">
                 <div className='row' >
@@ -21,8 +17,8 @@ class CreateMatch extends Component {
                             <div className="row">
                                 <div className="col-md-12">
                                     <MatchForm
-                                        createMatch={this.props.createMatch} 
-                                        places={this.props.places}
+                                        createMatch={createMatch} 
+                                        places={places}
                                     />
                                 </div>
                             </div>
@@ -31,7 +27,6 @@ class CreateMatch extends Component {
                 </div>
             </div>
         );
-    }
 }
 
 export default CreateMatch;

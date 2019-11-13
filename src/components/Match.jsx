@@ -6,6 +6,7 @@ import '../assets/css/Match.scss'
 const Match = ({match, deleteMatch}) => {
         return (
             <Fragment>
+
                 <div className="row " >
                     <div className='col-md-12 col-lg-3 d-flex align-items-center' >
                         {match.date}
@@ -19,13 +20,15 @@ const Match = ({match, deleteMatch}) => {
                         {match.type}
                     </div>
                     
-                    <div className="col-lg-1">
+                    <div className="col-lg-2 mb-2">
                         <Link to={`/match/${match.id}`} >
-                            <button className="btn btn-primary grid-item" >Ver</button>
+                            <button className="w-100 btn btn-primary grid-item" >Ver</button>
                         </Link>
                     </div>
-                    <div className="col-lg-2">
-                        <button onClick={() => deleteMatch(match.id)} className=" btn btn-danger grid-item" >Eliminar</button>
+                    <div className="col-lg-2 mb-2">
+                        <button 
+                            onClick={() => deleteMatch(match.id)} 
+                            className="w-100 btn btn-danger grid-item" >Eliminar</button>
                     </div>
                 </div >
             </Fragment>

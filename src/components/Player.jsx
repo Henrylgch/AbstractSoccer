@@ -4,7 +4,7 @@ import React, { Fragment } from 'react'
 const Player = ({player, deletePlayer}) => {
     return (
         <Fragment>
-                <div className="col d-flex align-items-center">
+                <div className="col text-truncate d-flex align-items-center">
                     {player.email}
                 </div>
 
@@ -12,8 +12,8 @@ const Player = ({player, deletePlayer}) => {
                     {player.status}
                 </div>
                 
-                <div className="col-lg-3"> 
-                    <button className="btn btn-danger" onClick={() => {deletePlayer(player.id)}} >
+                <div className="col-lg-4"> 
+                    <button className="w-100 btn btn-danger" onClick={() => {deletePlayer(player.id)}} >
                         Eliminar
                     </button> 
                 </div>
