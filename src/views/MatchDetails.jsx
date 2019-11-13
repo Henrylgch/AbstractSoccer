@@ -152,7 +152,7 @@ class MatchDetails extends Component {
                                 <DetailSectionTitle title="Informacion de la cancha" />
                                 
                                 <div className="row">
-                                    <div className="col">
+                                    <div className="col-sm-12 mb-2">
                                         <DetailField 
                                             name="Nombre" 
                                             content={this.state.place.nombre} 
@@ -170,7 +170,7 @@ class MatchDetails extends Component {
                                             content={this.state.place.comuna} 
                                         />
                                     </div>
-                                    <div className="col">
+                                    <div className="col-sm-12">
                                     <Map 
                                         googleMapURL={`https://maps.googleapis.com/maps/api/js?v=3.exp&key=${credentials.mapsKey}`}
                                         containerElement={<div style={{height: '200px'}} />}
@@ -214,7 +214,7 @@ class MatchDetails extends Component {
 
                                 <div>
                                     <ul className="list-group">
-                                        <li className="row border-bottom mt-3 pb-2">
+                                        <li className="row border-bottom mt-3 pb-2 d-none d-lg-flex d-xl-none">
                                             <div className="col text-truncate d-flex align-items-center">
                                                 <span className="font-weight-bold" >Jugador</span>
                                             </div>
