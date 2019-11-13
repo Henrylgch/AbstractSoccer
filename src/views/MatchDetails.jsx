@@ -133,7 +133,7 @@ class MatchDetails extends Component {
                 </div>
 
                 <div className="row mt-4" >
-                    <div className="col-lg-6 mb-3">
+                    <div className="col-lg-5 mb-3">
                         <div className="border rounded p-5 mb-3">
                             <DetailSectionTitle title="Informacion del partido" />
                             
@@ -183,7 +183,7 @@ class MatchDetails extends Component {
                         </div>
                     </div>
 
-                    <div className="col-lg-6">
+                    <div className="col-lg-7">
                         <div className="border rounded p-5 mb-3">
                             <DetailSectionTitle title="Jugadores" />
 
@@ -214,6 +214,20 @@ class MatchDetails extends Component {
 
                                 <div>
                                     <ul className="list-group">
+                                        <li className="row border-bottom mt-3 pb-2">
+                                            <div className="col text-truncate d-flex align-items-center">
+                                                <span className="font-weight-bold" >Jugador</span>
+                                            </div>
+
+                                            <div className="col-lg-3 d-flex align-items-center">
+                                                <span className="font-weight-bold">Estado</span>
+                                            </div>
+                                            
+                                            <div className="col-lg-3 d-flex justify-content-center align-items-center"> 
+                                                <span className="font-weight-bold">Opcion</span>
+                                            </div>
+                                        </li>
+
                                         {
                                             !this.state.match.players ? <div>No hay jugadores invitados</div> :
 

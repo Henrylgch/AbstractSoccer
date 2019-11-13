@@ -12,7 +12,7 @@ const Player = ({player, deletePlayer}) => {
                     {player.status}
                 </div>
                 
-                <div className="col-lg-4"> 
+                <div className="col-lg-3"> 
                     <button className="w-100 btn btn-danger" onClick={() => {deletePlayer(player.id)}} >
                         Eliminar
                     </button> 
